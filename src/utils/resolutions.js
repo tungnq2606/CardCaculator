@@ -1,7 +1,6 @@
-import { Platform, StatusBar, Dimensions } from 'react-native';
-import { isIphoneX } from 'react-native-iphone-x-helper';
+import {Dimensions} from 'react-native';
 
-const { height, width } = Dimensions.get('window');
+const {height, width} = Dimensions.get('window');
 const guidelineBaseWidth = 360;
 const guidelineBaseHeight = 592;
 // padding, margin, fontSize, ....

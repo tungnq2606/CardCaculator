@@ -20,4 +20,4 @@ const styles = StyleSheet.create({
     flex:1,
   }
 });
-export default Layout;
+export default React.memo(Layout);
